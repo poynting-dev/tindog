@@ -1,0 +1,169 @@
+#title {
+      background-color: #ff4c68;
+      color: #000;
+      height: 530px;
+}
+
+h1 {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.5;
+      font-size: 2.7em;
+      font-weight: bolder;
+}
+
+h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.7em;
+      font-weight: 1000;
+      line-height: 3.7rem;
+}
+h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.7em;
+      font-weight: 1000;
+      line-height: 3.7rem;
+}
+
+p {
+      color: rgb(165, 162, 162);
+}
+
+.container-fluid {
+      padding: 3% 15%;
+}
+
+body {
+      font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+      padding-bottom: 4%;
+}
+.navbar-brand {
+      font-family: "Ubuntu";
+      font-size: 2rem;
+      font-weight: bold;
+}
+
+.nav-item {
+      padding: 0 18px;
+}
+
+.nav-link {
+      font-size: larger;
+      font-family: 'Montserrat';
+}
+
+.download-button {
+      margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 1028px){ 
+      #title {
+            background-color: #ff4c68;
+            color: #000;
+            text-align: center;
+            height: 870px;
+      }
+
+      .title-image {
+            position: static;
+            transform: rotate(0);
+            left: 80px;
+            top: 40px;
+      }
+
+}
+
+.title-image {
+      right: 35%;
+      position: absolute;
+      transform: rotate(25deg);
+      width: 60%;
+      z-index: 0;
+}
+
+#features {
+      background-color: white;
+      padding: 7% 15%;
+      position: relative;
+      text-align: center;
+}
+
+.feature-box {
+      text-align: center;
+      padding: 5%;
+}
+
+.icon {
+      margin-bottom: 1rem;
+}
+
+.icon:hover {
+      color: #411e1e;
+}
+
+#testimonials {
+      text-align: center;
+      background-color: #ff4c68;
+      color: white;
+}
+
+.testimonial-image {
+      margin: 20px;
+      width: 10%;
+      border-radius: 100%;
+}
+
+#press {
+      background-color: #ff4c68;
+      text-align: center;
+      padding-bottom: 3%;
+}
+
+.press-logo {
+      width: 15%;
+      margin: 30px 30px 50px;
+}
+
+.carousel-item {
+      padding: 7% 15%;
+}
+
+#pricing {
+      padding: 10%;
+      text-align: center;
+}
+
+.card1-body {
+      line-height: 33px;
+}
+
+.card2-body {
+      line-height: 37px;
+}
+
+.pricing-card {
+      padding-top: 4%;
+}
+
+#cta {
+      background-color: #ff4c68;
+      font-weight: 900;
+      padding: 7% 15%;
+      text-align: center;
+}
+
+.foot-head {
+      font-size: 3rem;
+      line-height: 1.5;
+}
+
+#footer {
+      padding:7% 15%;
+      text-align: center;
+}
+
+.social-img {
+      margin: 3%;
+}
